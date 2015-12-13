@@ -1,0 +1,21 @@
+<html>
+<head>
+
+	<title>Mugger</title>
+</head>
+<body>
+	<h1>Ugh School</h1>
+
+	<ul id="items">
+		{% for item in modules %}
+			<li>{{ item['name'].upper() }}
+				<ul>
+					{% for file in item['files'] %}
+					<li><a href="modules/{{ item['name'] }}/{{ file }}">{{file}}</a></li>
+					{% endfor %}
+				</ul>
+			</li>
+		{% endfor %}
+	</ul>
+</body>
+</html>

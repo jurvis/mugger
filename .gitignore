@@ -1,0 +1,7 @@
+# Don't commit generated output
+index.html
+
+# Specific Stuff
+modules/*
+!modules/example
+img/
