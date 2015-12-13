@@ -1,5 +1,5 @@
 # Don't commit generated output
-index.html
+/index.html
 
 # Specific Stuff
 modules/*
