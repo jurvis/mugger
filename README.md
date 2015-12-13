@@ -2,6 +2,7 @@
 This project just generates a very simple site with no CSS whatsoever with a list of modules you're taking and the corresponding notes that you've taken.
 
 My use-case is very specific:
+
 1. Export my notes from Markdown to HTML with Ulysses (which helps me inject the CSS I want)
 2. Copy HTML file to corresponding folder in `modules/`
 3. Run generate.py and update my site accordingly
